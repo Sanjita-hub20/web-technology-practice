@@ -1,0 +1,26 @@
+/* Universal CSS selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* name/type selector */
+h1{
+    text-align: center;
+    border: 2px solid goldenrod;
+    padding: 10px;
+    margin: 10px;
+}
+p{
+    color: rgb(62, 132, 109);
+}
+
+/* Class selector */
+.group1{
+    color: brown;
+}
+
+/* ID selector */
+#a{
+    border: 2px solid rgb(58, 82, 74);
+}

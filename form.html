@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <h1>User Registration Form</h1>
+    <form action="" method="" enctype="" id="" class="" accept-charset="">
+        <fieldset>
+            <legend>User Information</legend>
+            <div class="form-group">
+                <label for="name" class="required"> Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter name" class="name" required />
+            </div>
+            <div class="form-group">
+                <label for="email" class="required">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter email" class="email" />
+            </div>
+            <div class="form-group">
+                <label for="phone" class="required">Phone</label>
+                <input type="number" name="phone" id="phone" placeholder="Enter phone" class="phone" />                
+            </div>
+            <div class="form-group">
+                <label for="website">Website</label>
+                <input type="url" name="website" id="website" placeholder="Enter website" class="website" />
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter password" class="password"/>
+            </div>
+            <div class="formgroup">
+                <label for="dob">Date of birth</label>
+                <input type="date" name="dob" id="dob" placeholder="Enter dob" class="dob"/>
+            </div>
+            <div class="form-group">
+                <label for="Photo">Profile Image</label>
+                <input type="file" name="photo" id="photo" placeholder="Enter photo" class="photo"/>            
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" id="male" class="male" value="M"/>Male
+                <input type="radio" name="gender" id="female" class="female" value="F"/>Female
+            </div>
+            <div class="form-group">
+                <label for="country">Country</label>
+                <select name="country" id="country" multiple>
+                    <option value="">Select Country</option>
+                    <option value="nepal">Nepal</option>
+                    <option value="india">India</option>
+                </select>                
+            </div>
+            <div class="formgroup">
+                <input type="checkbox" name="term" value="term"> I accept term & condition
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear">
+            </div>
+
+    </fieldset>    
+    </form>
+</body>
+</html>

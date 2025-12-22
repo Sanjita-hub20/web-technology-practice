@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 20px;
+}
+p{
+    background-image: linear-gradient(200deg, #20d120,purple,grey);
+}
+@media screen and (max-width:768px) {
+    p{
+        font-size: 40px;
+        background-image: linear-gradient(300deg,#dc45a7,#f44141,#789);
+    }
+}

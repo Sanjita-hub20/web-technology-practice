@@ -1,0 +1,21 @@
+/* class selector */
+.courses{
+    background-color: rgb(159, 112, 66);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.course{
+    width: 100px;
+}
+
+/* pseudo class selector */
+.course:nth-child(odd){
+    background-color: rgb(199, 199, 59);
+}
+.course:nth-child(even){
+    background-color: rgb(67, 67, 174);
+}

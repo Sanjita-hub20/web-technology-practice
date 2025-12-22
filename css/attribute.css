@@ -1,0 +1,15 @@
+img[alt]{
+    border: 5px solid red;
+}
+img[alt="Hello"]{
+    border: 5px solid rgb(19,15,15);
+}
+img[src^="./images/friends"]{
+    border: 5px solid rgb(14, 100, 16);
+}
+img[src$=".png"]{
+    border: 5px solid rgb(241, 31, 66);
+}
+img[src*="file"]{
+    border: 5px solid rgb(89, 175, 236);
+}

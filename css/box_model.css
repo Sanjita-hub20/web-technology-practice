@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background: #f59;
+}
+.college{
+    width: 200px;
+    /* height: 200px; */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 3px solid #98a;
+    margin: 30px;
+}

@@ -1,0 +1,4 @@
+1)Gitbash dowmnload and install
+    git(version control tool)- software
+    github(cloud server)- to store code
+2) Create account into github.com

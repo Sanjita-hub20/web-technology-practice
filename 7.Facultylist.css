@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #333;
+}
+
+h2 {
+    text-align: center;
+}
+
+.faculty-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.faculty {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.faculty ul {
+    list-style-type: circle;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+/* Different categories styling */
+.management {
+    background-color: #e6f2ff;
+}
+
+.science {
+    background-color: #e6ffe6;
+}
+
+.humanities {
+    background-color: #fff0e6;
+}

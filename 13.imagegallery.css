@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.gallery {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.gallery img {
+    width: 70%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    border-color: blue;
+}
